@@ -18,7 +18,7 @@ public enum TipoSanguineo {
 	/** Indica o RH do tipo sanguineo, true indica positivo */
 	private boolean rh;
 	
-	/** Descrição completa do tipo */
+	/** DescriÃ§Ã£o completa do tipo */
 	private String descicao;
 	
 	/** Abreviacao do tipo */
@@ -27,6 +27,7 @@ public enum TipoSanguineo {
 	private TipoSanguineo(boolean rh,String abreviacao, String descricao){
 		this.rh = rh;
 		this.descicao = descricao;
+		this.abreviacao = abreviacao;
 		
 	}
 	
